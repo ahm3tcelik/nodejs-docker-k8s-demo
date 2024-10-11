@@ -1,5 +1,5 @@
 # Set the base image to use for your Node.js application
-FROM node:14-alpine
+FROM registry.uygunsoft.online/node:18-alpine
 
 # Set the working directory inside the container
 WORKDIR /usr/src/app
